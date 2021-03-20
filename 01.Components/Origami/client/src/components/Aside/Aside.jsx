@@ -1,4 +1,5 @@
-import ListItem from '../ListItem/ListItem.js';
+import ListItem from '../ListItem/ListItem.jsx';
+
 import './Aside.css';
 
 function Aside() {

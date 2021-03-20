@@ -1,6 +1,8 @@
 import {Component} from 'react';
+
 import * as postsService from '../../services/postsService.js';
-import Post from '../Post/Post.js';
+import Post from '../Post/Post.jsx';
+
 import './PostsList.css';
 
 class PostsList extends Component {

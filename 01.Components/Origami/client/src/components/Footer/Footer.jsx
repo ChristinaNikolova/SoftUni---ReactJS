@@ -1,11 +1,11 @@
-import ListItem from '../ListItem/ListItem';
-import './Navigation.css';
+import ListItem from '../ListItem/ListItem.jsx';
 
-function Navigation() {
+import './Footer.css';
+
+function Footer() {
     return (
-        <nav className="navigation" style={{position: 'fixed'}}>
+        <footer className="footer">
             <ul>
-                <li className="listItem"><img src="/white-origami-bird.png" alt="white-right-origami-bird"></img></li>
                 <ListItem>Going to 1</ListItem>
                 <ListItem>Going to 2</ListItem>
                 <ListItem>Going to 3</ListItem>
@@ -15,9 +15,11 @@ function Navigation() {
                 <ListItem>Going to 7</ListItem>
                 <ListItem>Going to 8</ListItem>
                 <ListItem>Going to 9</ListItem>
+                <li className="listItem"><img src="/blue-origami-bird-flipped.png" alt="blue-left-origami-bird"></img></li>
             </ul>
-        </nav>
+            <p>Software University &copy; 2021</p>
+        </footer>
     );
 }
 
-export default Navigation;
+export default Footer;

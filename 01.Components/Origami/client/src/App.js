@@ -1,7 +1,8 @@
-import Aside from './components/Aside/Aside.js';
-import Navigation from './components/Navigation/Navigation.js';
-import Main from './components/Main/Main.js';
-import Footer from './components/Footer/Footer.js';
+import Aside from './components/Aside/Aside.jsx';
+import Navigation from './components/Navigation/Navigation.jsx';
+import Main from './components/Main/Main.jsx';
+import Footer from './components/Footer/Footer.jsx';
+
 import './App.css';
 
 function App() {

@@ -1,5 +1,6 @@
+import PostsList from '../PostsList/PostsList.jsx';
+
 import './Main.css';
-import PostsList from '../PostsList/PostsList.js';
 
 function Main() {
     return (
