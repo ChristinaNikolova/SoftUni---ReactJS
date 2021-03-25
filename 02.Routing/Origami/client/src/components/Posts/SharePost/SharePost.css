@@ -1,0 +1,10 @@
+.sharePost {
+    display: inline-block;
+    padding: 0.5%;
+    width: 83%;
+}
+
+.sharePost h2 {
+    color: #234465;
+    text-decoration: underline;
+}

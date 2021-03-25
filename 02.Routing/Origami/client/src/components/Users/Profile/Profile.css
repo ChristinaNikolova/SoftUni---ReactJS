@@ -1,0 +1,10 @@
+.profile {
+    width: 83%;
+    display: inline-block;
+    padding: 0.5%;
+}
+
+.profile h2 {
+    color: #234465;
+    text-decoration: underline;
+}
